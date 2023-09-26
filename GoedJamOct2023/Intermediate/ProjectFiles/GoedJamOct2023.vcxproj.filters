@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\GoedJamOct2023.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\GoedJamOct2023.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\GoedJamOct2023Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\GoedJamOct2023">
+      <UniqueIdentifier>{06A467A9-D363-3C0A-861F-F77C552D699A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\GoedJamOct2023\GoedJamOct2023.Build.cs">
+      <Filter>Source\GoedJamOct2023</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\GoedJamOct2023\GoedJamOct2023.cpp">
+      <Filter>Source\GoedJamOct2023</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GoedJamOct2023\GoedJamOct2023.h">
+      <Filter>Source\GoedJamOct2023</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GoedJamOct2023\Portal.cpp">
+      <Filter>Source\GoedJamOct2023</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GoedJamOct2023\Portal.h">
+      <Filter>Source\GoedJamOct2023</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GoedJamOct2023\PortalManager.cpp">
+      <Filter>Source\GoedJamOct2023</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GoedJamOct2023\PortalManager.h">
+      <Filter>Source\GoedJamOct2023</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

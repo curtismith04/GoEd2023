@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\steve\\documents\\unreal projects\\goedjamoct2023\\goedjamoct2023\\source\\goedjamoct2023\\portal.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\steve\\documents\\unreal projects\\goedjamoct2023\\goedjamoct2023\\intermediate\\build\\win64\\x64\\goedjamoct2023editor\\development\\engine\\sharedpch.engine.cpp20.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "c:\\users\\steve\\documents\\unreal projects\\goedjamoct2023\\goedjamoct2023\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\goedjamoct2023\\definitions.goedjamoct2023.h",
+            "c:\\users\\steve\\documents\\unreal projects\\goedjamoct2023\\goedjamoct2023\\source\\goedjamoct2023\\portal.h",
+            "c:\\users\\steve\\documents\\unreal projects\\goedjamoct2023\\goedjamoct2023\\intermediate\\build\\win64\\unrealeditor\\inc\\goedjamoct2023\\uht\\portal.generated.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\components\\arrowcomponent.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\arrowcomponent.generated.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\components\\scenecapturecomponent2d.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\components\\scenecapturecomponent.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\scenecapturecomponent.generated.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\scenecapturecomponent2d.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

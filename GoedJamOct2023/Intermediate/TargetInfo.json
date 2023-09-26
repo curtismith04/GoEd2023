@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "GoedJamOct2023",
+			"Path": "..\\Source\\GoedJamOct2023.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "GoedJamOct2023Editor",
+			"Path": "..\\Source\\GoedJamOct2023Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

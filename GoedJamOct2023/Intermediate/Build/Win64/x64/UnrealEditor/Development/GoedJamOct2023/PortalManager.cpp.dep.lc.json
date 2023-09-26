@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\steve\\documents\\unreal projects\\goedjamoct2023\\goedjamoct2023\\source\\goedjamoct2023\\portalmanager.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\steve\\documents\\unreal projects\\goedjamoct2023\\goedjamoct2023\\intermediate\\build\\win64\\x64\\goedjamoct2023editor\\development\\engine\\sharedpch.engine.cpp20.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "c:\\users\\steve\\documents\\unreal projects\\goedjamoct2023\\goedjamoct2023\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\goedjamoct2023\\definitions.goedjamoct2023.h",
+            "c:\\users\\steve\\documents\\unreal projects\\goedjamoct2023\\goedjamoct2023\\source\\goedjamoct2023\\portalmanager.h",
+            "c:\\users\\steve\\documents\\unreal projects\\goedjamoct2023\\goedjamoct2023\\intermediate\\build\\win64\\unrealeditor\\inc\\goedjamoct2023\\uht\\portalmanager.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
