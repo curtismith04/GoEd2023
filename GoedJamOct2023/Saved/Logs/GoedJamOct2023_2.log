@@ -1237,3 +1237,156 @@ LogConfig: Set CVar [[r.setres:1280x720]]
 [2023.09.26-15.33.22:802][101]LogFileHelpers: InternalPromptForCheckoutAndSave took 222 ms
 [2023.09.26-15.33.22:802][101]AssetCheck: New page: Asset Save: AB_Mono
 [2023.09.26-15.33.22:802][101]LogContentValidation: Display: Validating /Script/Engine.AudioBus /Game/Audio/Mixing/AB_Mono.AB_Mono
+[2023.09.26-15.33.57:100][802]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.09.26-15.33.57:112][802]LogContentBrowser: Creating deferred item: NewFolder
+[2023.09.26-15.33.57:119][803]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.09.26-15.33.57:319][816]LogDerivedDataCache: C:/Users/curti/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:01:12.954 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 37405 files in 39635 folders with total size 2655 MiB.
+[2023.09.26-15.34.00:393][  0]LogContentBrowser: Attempting asset rename: NewFolder -> ArtAssets
+[2023.09.26-15.34.00:393][  0]LogContentBrowser: End creating deferred item NewFolder
+[2023.09.26-15.34.15:192][199]LogSlate: Window 'Interchange Pipeline Configuration (Import Content)' being destroyed
+[2023.09.26-15.34.15:232][199]LogInterchangeEngine: [Pending] Importing
+[2023.09.26-15.34.15:232][199]LogInterchangeEngine: Display: Interchange start importing source [D:/2_GameAudio/Game ...Oct2023/BlenderFiles/RoundedWireframeCube.obj]
+[2023.09.26-15.34.15:235][199]LogInterchangeEngine: [Pending] Importing -  (2)
+[2023.09.26-15.34.15:235][199]LogInterchangeEngine: Display: Interchange start importing source [D:/2_GameAudio/Game ...Oct2023/BlenderFiles/CrappyGun.obj]
+[2023.09.26-15.34.15:239][199]LogTemp: Display: Interchange Obj translator: Unknown keyword: s
+[2023.09.26-15.34.15:269][200]LogInterchangeEngine: [Pending] Importing -  (2)
+[2023.09.26-15.34.15:327][201]LogStaticMesh: Display: Building static mesh CrappyGun...
+[2023.09.26-15.34.15:328][201]LogStaticMesh: Display: Building static mesh RoundedWireframeCube...
+[2023.09.26-15.34.15:329][201]LogInterchangeEngine: [Pending] Importing -  (1)
+[2023.09.26-15.34.15:329][201]Interchange: Error: Multiple import task are importing the same asset at the same location [Material]. This asset will be skip. See more information in the log
+[2023.09.26-15.34.15:347][201]LogInterchangeEngine: [Success] Import Done
+[2023.09.26-15.34.15:357][201]LogInterchangeEngine: [Success] Import Done
+[2023.09.26-15.34.15:359][201]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Content/Transient: 'C:/Program Files/Epic Games/UE_5.3/Engine/Content/Transient' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.34.15:365][201]LogStaticMesh: Built static mesh [0.04s] /Game/ArtAssets/CrappyGun.CrappyGun
+[2023.09.26-15.34.15:368][201]LogStaticMesh: Warning: CrappyGun has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.09.26-15.34.15:368][201]LogStaticMesh: Warning: CrappyGun has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.26-15.34.15:368][201]LogStaticMesh: Warning: CrappyGun has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.09.26-15.34.15:410][201]LogStaticMesh: Built static mesh [0.08s] /Game/ArtAssets/RoundedWireframeCube.RoundedWireframeCube
+[2023.09.26-15.34.15:417][202]LogStaticMesh: Warning: The difference between RenderData Bounds (Origin=X=0.000 Y=35.659 Z=-2.238, BoxExtent=(X=22.253 Y=153.170 Z=44.594), SphereRadius=(161.074008)) and MeshDescription Bounds (Origin=X=0.000 Y=35.659 Z=9.268, BoxExtent=(X=22.253 Y=153.170 Z=56.100), SphereRadius=(155.376958)) is significative for StaticMesh /Game/ArtAssets/CrappyGun.CrappyGun
+[2023.09.26-15.34.15:962][209]LogShaderCompilers: Display: ================================================
+[2023.09.26-15.34.15:962][209]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.09.26-15.34.15:962][209]LogShaderCompilers: Display: Total job queries 4, among them cache hits 0 (0.00%)
+[2023.09.26-15.34.15:963][209]LogShaderCompilers: Display: Tracking 1 distinct input hashes that result in 1 distinct outputs (100.00%)
+[2023.09.26-15.34.15:963][209]LogShaderCompilers: Display: RAM used: 18.38 KiB of 1.60 GiB budget. Usage: 0.00%
+[2023.09.26-15.34.15:963][209]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.09.26-15.34.15:963][209]LogShaderCompilers: Display: Shaders Compiled: 1
+[2023.09.26-15.34.15:963][209]LogShaderCompilers: Display: Jobs assigned 4, completed 1 (25.00%)
+[2023.09.26-15.34.15:963][209]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.12 s
+[2023.09.26-15.34.15:963][209]LogShaderCompilers: Display: Job execution time: average 0.32 s, max 0.32 s
+[2023.09.26-15.34.15:963][209]LogShaderCompilers: Display: Job life time (pending + execution): average 0.43 s, max 0.43
+[2023.09.26-15.34.15:963][209]LogShaderCompilers: Display: Shader code size: average 29.902 KiB, min 29.902 KiB, max 29.902 KiB
+[2023.09.26-15.34.15:963][209]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.43 s
+[2023.09.26-15.34.15:963][209]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.09.26-15.34.15:963][209]LogShaderCompilers: Display: Average processing rate: 2.30 jobs/sec
+[2023.09.26-15.34.15:963][209]LogShaderCompilers: Display: Total thread time: 0.109 s
+[2023.09.26-15.34.15:963][209]LogShaderCompilers: Display: Total thread preprocess time: 0.018 s
+[2023.09.26-15.34.15:963][209]LogShaderCompilers: Display: Percentage time preprocessing: 16.69%
+[2023.09.26-15.34.15:963][209]LogShaderCompilers: Display: Effective parallelization: 0.25 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.09.26-15.34.15:963][209]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2023.09.26-15.34.15:963][209]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.11 sec, max 0.11 sec, min 0.11 sec)
+[2023.09.26-15.34.15:963][209]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2023.09.26-15.34.15:963][209]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 100.00% of total time (compiled    1 times, average 0.11 sec, max 0.11 sec, min 0.11 sec)
+[2023.09.26-15.34.15:963][209]LogShaderCompilers: Display: ================================================
+[2023.09.26-15.34.16:158][211]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.26-15.34.16:454][215]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Content/Transient: 'C:/Program Files/Epic Games/UE_5.3/Engine/Content/Transient' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.34.22:922][342]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.09.26-15.34.23:707][342]LogSlate: Window 'Delete Assets' being destroyed
+[2023.09.26-15.34.23:764][342]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/ArtAssets/Material.Material
+	Asset Type: Material
+[2023.09.26-15.34.23:905][342]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.09.26-15.34.23:908][342]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.09.26-15.34.23:910][342]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2023.09.26-15.34.23:914][342]LogStaticMesh: Warning: The difference between RenderData Bounds (Origin=X=0.000 Y=35.659 Z=-2.238, BoxExtent=(X=22.253 Y=153.170 Z=44.594), SphereRadius=(161.074008)) and MeshDescription Bounds (Origin=X=0.000 Y=35.659 Z=9.268, BoxExtent=(X=22.253 Y=153.170 Z=56.100), SphereRadius=(155.376958)) is significative for StaticMesh /Game/ArtAssets/CrappyGun.CrappyGun
+[2023.09.26-15.34.28:292][461]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.09.26-15.34.28:340][461]LogContentBrowser: Creating deferred item: NewFolder
+[2023.09.26-15.34.28:347][462]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.09.26-15.34.30:644][532]LogContentBrowser: Attempting asset rename: NewFolder -> Meshes
+[2023.09.26-15.34.30:644][532]LogContentBrowser: End creating deferred item NewFolder
+[2023.09.26-15.34.32:829][601]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.09.26-15.34.32:840][601]LogContentBrowser: Creating deferred item: NewFolder
+[2023.09.26-15.34.32:845][602]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.09.26-15.34.34:561][705]LogContentBrowser: Attempting asset rename: NewFolder -> Materials
+[2023.09.26-15.34.34:562][705]LogContentBrowser: End creating deferred item NewFolder
+[2023.09.26-15.34.38:989][852]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.26-15.34.39:089][852]LogSavePackage: Moving output files for package: /Game/ArtAssets/Meshes/RoundedWireframeCube
+[2023.09.26-15.34.39:089][852]LogSavePackage: Moving 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject/GoedJamOct2023/Saved/RoundedWireframeCube8DE2F2F44B2B92FE5C63C6B382BF71FA.tmp' to 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject/GoedJamOct2023/Content/ArtAssets/Meshes/RoundedWireframeCube.uasset'
+[2023.09.26-15.34.39:095][852]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ArtAssets/Meshes/CrappyGun" FILE="D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject/GoedJamOct2023/Content/ArtAssets/Meshes/CrappyGun.uasset" SILENT=true
+[2023.09.26-15.34.39:098][852]LogSavePackage: Moving output files for package: /Game/ArtAssets/Meshes/CrappyGun
+[2023.09.26-15.34.39:098][852]LogSavePackage: Moving 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject/GoedJamOct2023/Saved/CrappyGunAA1CB09D4169E2F5B5B583B8F760BAC8.tmp' to 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject/GoedJamOct2023/Content/ArtAssets/Meshes/CrappyGun.uasset'
+[2023.09.26-15.34.39:248][852]LogFileHelpers: InternalPromptForCheckoutAndSave took 258 ms (total: 480 ms)
+[2023.09.26-15.34.39:338][852]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2023.09.26-15.34.39:342][852]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.09.26-15.34.39:345][852]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2023.09.26-15.34.39:353][852]AssetCheck: New page: Asset Save: multiple assets
+[2023.09.26-15.34.39:353][852]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/ArtAssets/Meshes/RoundedWireframeCube.RoundedWireframeCube
+[2023.09.26-15.34.39:353][852]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/ArtAssets/Meshes/CrappyGun.CrappyGun
+[2023.09.26-15.35.22:442][186]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.09.26-15.36.47:750][873]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.26-15.36.47:796][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ArtAssets/Materials/M_Plastic" FILE="D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject/GoedJamOct2023/Content/ArtAssets/Materials/M_Plastic.uasset" SILENT=true
+[2023.09.26-15.36.47:798][873]LogSavePackage: Moving output files for package: /Game/ArtAssets/Materials/M_Plastic
+[2023.09.26-15.36.47:798][873]LogSavePackage: Moving 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject/GoedJamOct2023/Saved/M_PlasticAEB60BF54429E16100EC0CB2A469C9B7.tmp' to 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject/GoedJamOct2023/Content/ArtAssets/Materials/M_Plastic.uasset'
+[2023.09.26-15.36.47:962][873]LogFileHelpers: InternalPromptForCheckoutAndSave took 212 ms (total: 693 ms)
+[2023.09.26-15.36.48:136][873]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.09.26-15.36.48:140][873]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.09.26-15.36.48:143][873]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2023.09.26-15.36.48:152][873]AssetCheck: New page: Asset Save: M_Plastic
+[2023.09.26-15.36.48:152][873]LogContentValidation: Display: Validating /Script/Engine.Material /Game/ArtAssets/Materials/M_Plastic.M_Plastic
+[2023.09.26-15.36.58:967][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:967][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:967][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:967][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Media/MediaPlate/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Media/MediaPlate/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:967][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Media/MediaCompositing/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:967][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Interchange/Runtime/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Interchange/Runtime/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:967][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/2D/Paper2D/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:967][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Developer/AnimationSharing/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:967][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Enterprise/GLTFExporter/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Enterprise/GLTFExporter/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:967][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Enterprise/DatasmithContent/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:967][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/WaveformEditor/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/WaveformEditor/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:967][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:967][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/UVEditor/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/UVEditor/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:967][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/ModelingToolsEditorMode/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/ModelingToolsEditorMode/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:967][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/GeometryMode/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:967][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/BlueprintHeaderView/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/BlueprintHeaderView/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:967][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/WaveTable/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/WaveTable/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:967][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/Soundscape/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/Soundscape/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:967][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/Synthesis/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:967][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/RigVM/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/RigVM/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:967][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/ResonanceAudio/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/ResonanceAudio/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:967][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/Metasound/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/Metasound/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:967][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/MeshModelingToolset/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/MeshModelingToolset/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:967][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/GeometryProcessing/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/GeometryProcessing/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:967][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/AudioWidgets/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/AudioWidgets/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:967][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/CommonUI/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/CommonUI/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:967][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:967][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/AudioModulation/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/AudioModulation/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:967][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ToolPresets/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ToolPresets/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:967][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:967][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/MeshLODToolset/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/MeshLODToolset/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:967][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:967][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:967][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/GeometryFlow/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/GeometryFlow/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:967][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/FullBodyIK/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/FullBodyIK/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:967][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/Dataflow/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/Dataflow/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:967][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosNiagara/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:967][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:967][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosCaching/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosCaching/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:967][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:967][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/MovieScene/SequencerScripting/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/MovieScene/SequencerScripting/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:967][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/IKRig/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/IKRig/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:967][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRig/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRig/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:967][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/VirtualProduction/Takes/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:968][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRigSpline/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRigSpline/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:968][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ACLPlugin/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ACLPlugin/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:968][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/FX/Niagara/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/FX/Niagara/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:968][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/TraceUtilities/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/TraceUtilities/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.36.58:968][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Bridge/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Bridge/Content' is outside repository at 'D:/2_GameAudio/Game Jams/2023/GoedJamOct2023/GitProject'
+[2023.09.26-15.37.04:810][292]LogSlate: Window 'Submit Files' being destroyed
+[2023.09.26-15.37.05:187][292]LogSourceControl: commit successful: [main 5fe3e05] Audio push
+[2023.09.26-15.37.05:306][292]SourceControl: [main 5fe3e05] Audio push
+[2023.09.26-15.37.05:306][292]SourceControl:  4 files changed, 0 insertions(+), 0 deletions(-)
+[2023.09.26-15.37.05:306][292]SourceControl:  create mode 100644 GoedJamOct2023/Content/ArtAssets/Materials/M_Plastic.uasset
+[2023.09.26-15.37.05:306][292]SourceControl:  create mode 100644 GoedJamOct2023/Content/ArtAssets/Meshes/CrappyGun.uasset
+[2023.09.26-15.37.05:306][292]SourceControl:  create mode 100644 GoedJamOct2023/Content/ArtAssets/Meshes/RoundedWireframeCube.uasset
+[2023.09.26-15.37.05:306][292]SourceControl:  create mode 100644 GoedJamOct2023/Content/Audio/SFXs/SFX_Portal_Tele_Player.uasset
+[2023.09.26-15.37.05:320][292]SourceControl: Commited [main 5fe3e05] Audio push.
