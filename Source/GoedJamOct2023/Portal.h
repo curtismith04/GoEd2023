@@ -17,7 +17,7 @@ class GOEDJAMOCT2023_API APortal : public AActor
 
 public:
 
-	UPROPERTY(EditAnywhere, Category = Portals)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Portals)
 		AActor* OtherPortal;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
