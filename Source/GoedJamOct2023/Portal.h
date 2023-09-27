@@ -29,6 +29,9 @@ public:
 	// Sets default values for this actor's properties
 	APortal();
 
+	UFUNCTION(BlueprintCallable)
+		void ReadyPortalCamera(FVector ReadyLocation, FRotator ReadyRotation);
+
 protected:
 	UPROPERTY()
 		UArrowComponent* ForwardArrow;
