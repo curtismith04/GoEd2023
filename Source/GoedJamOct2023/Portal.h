@@ -17,7 +17,7 @@ class GOEDJAMOCT2023_API APortal : public AActor
 
 public:
 
-	UPROPERTY(EditAnywhere, Category = Portals)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Portals)
 		AActor* OtherPortal;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
@@ -28,6 +28,9 @@ public:
 public:	
 	// Sets default values for this actor's properties
 	APortal();
+
+	UFUNCTION(BlueprintCallable)
+		void ReadyPortalCamera(FVector ReadyLocation, FRotator ReadyRotation);
 
 protected:
 	UPROPERTY()

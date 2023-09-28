@@ -24,10 +24,10 @@ public:
 		APortal* Target;
 
 	//If true will enable relative motion on Source camera
-	UPROPERTY(EditAnywhere, Category = Portals)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Portals)
 		bool ActiveSource = true;
 	//If true will enable relative motion on Target camera
-	UPROPERTY(EditAnywhere, Category = Portals)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Portals)
 		bool ActiveTarget = true;
 
 
