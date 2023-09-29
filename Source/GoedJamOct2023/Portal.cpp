@@ -24,6 +24,9 @@ APortal::APortal()
 
 	PortalView = CreateDefaultSubobject<USceneCaptureComponent2D>(TEXT("PortalView"));
 	PortalView->SetupAttachment(RootComponent);
+	PortalView->bCaptureOnMovement = true;
+	PortalView->bCaptureEveryFrame = false;
+	PortalView->PrimitiveRenderMode = ESceneCapturePrimitiveRenderMode::PRM_RenderScenePrimitives;
 
 	Plane = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Plane"));
 	Plane->SetupAttachment(RootComponent);
