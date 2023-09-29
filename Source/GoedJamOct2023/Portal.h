@@ -7,7 +7,7 @@
 #include "Portal.generated.h"
 
 class UArrowComponent;
-class USceneCaptureComponent2D;
+class UPortalSceneCaptureComponent2D;
 class UStaticMeshComponent;
 
 UCLASS()
@@ -23,7 +23,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UStaticMeshComponent* Plane;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		USceneCaptureComponent2D* PortalView;
+		UPortalSceneCaptureComponent2D* PortalView;
 	
 public:	
 	// Sets default values for this actor's properties

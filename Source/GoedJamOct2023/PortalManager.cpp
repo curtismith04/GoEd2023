@@ -4,7 +4,7 @@
 #include "PortalManager.h"
 #include "Portal.h"
 #include "Kismet/KismetMathLibrary.h"
-#include "Components/SceneCaptureComponent2D.h"
+#include "PortalSceneCaptureComponent2D.h"
 
 
 // Sets default values
@@ -12,6 +12,7 @@ APortalManager::APortalManager()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+	SetTickGroup(ETickingGroup::TG_PostUpdateWork);
 
 	if (!RootComponent)
 	{
@@ -56,6 +57,8 @@ void APortalManager::Tick(float DeltaTime)
 		//Set Camera rotation and locations
 		Source->PortalView->SetRelativeLocation(NewLocation);
 		Source->PortalView->SetRelativeRotation(NewRotation);
+
+		Source->PortalView->CaptureScene();
 	}
 		
 	if (ActiveTarget)
@@ -69,6 +72,8 @@ void APortalManager::Tick(float DeltaTime)
 
 		Target->PortalView->SetRelativeLocation(NewLocation);
 		Target->PortalView->SetRelativeRotation(NewRotation);
+
+		//Target->PortalView->CaptureScene();
 	}
 }
 
