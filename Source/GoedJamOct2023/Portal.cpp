@@ -5,13 +5,16 @@
 #include "Components/StaticMeshComponent.h"
 #include "Components/ArrowComponent.h"
 #include "Components/SceneCaptureComponent2D.h"
+#include "PortalSceneCaptureComponent2D.h"
 #include "Kismet/KismetMathLibrary.h"
 
 // Sets default values
 APortal::APortal()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
+	PrimaryActorTick.bCanEverTick = false;
+	SetTickGroup(ETickingGroup::TG_PostUpdateWork);
+
 
 	ForwardArrow = CreateDefaultSubobject<UArrowComponent>(TEXT("ForwardArrow"));
 	if (!RootComponent)
@@ -22,7 +25,7 @@ APortal::APortal()
 	ForwardArrow->ArrowSize = 1.0f;
 	ForwardArrow->ArrowLength = 80.0f;
 
-	PortalView = CreateDefaultSubobject<USceneCaptureComponent2D>(TEXT("PortalView"));
+	PortalView = CreateDefaultSubobject<UPortalSceneCaptureComponent2D>(TEXT("PortalView"));
 	PortalView->SetupAttachment(RootComponent);
 	PortalView->bCaptureOnMovement = true;
 	PortalView->bCaptureEveryFrame = false;
