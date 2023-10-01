@@ -54,6 +54,9 @@ void APortalManager::Tick(float DeltaTime)
 		NewRotation = UKismetMathLibrary::NormalizedDeltaRotator(PCM->GetTransformComponent()->GetComponentRotation(), Target->GetActorRotation());
 		NewRotation.Yaw = NewRotation.Yaw + 180.0;
 
+		//Deal with Scaling
+		NewLocation *= Source->GetActorScale3D().X;
+
 		//Set Camera rotation and locations
 		Source->PortalView->SetRelativeLocation(NewLocation);
 		Source->PortalView->SetRelativeRotation(NewRotation);
